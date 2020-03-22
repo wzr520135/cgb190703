@@ -33,7 +33,7 @@ public class TestTomcat {
          //启动
         t.start();
        t.getServer().await();//阻塞当前线程
-
+           //相当于while(ture){}
 
 
 
